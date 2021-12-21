@@ -1,3 +1,13 @@
+:root {
+  --brand-color: #2196f3;
+  --text-color: #212121;
+}
+
+.body {
+  background-color: #ffffff;
+  color: #212121;
+}
+
 /* Цвета логотипа #2196F3,  #000000 */
 /* Цвет навигации и основного текста #212121 */
 /* Цвет текста телефона и вторичного текста #757575 */
@@ -9,3 +19,182 @@
 /* Цвет вторичного фона main #E5E5E5 */
 
 /* Цвет интерактивных элементов в цвет логотипа #2196F3  */
+
+/* Шрифты Raleway 700, Roboto 900, 700, 500, 400  */
+
+/* Оформление логотипа */
+.logo {
+  color: var(--brand-color);
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.logo-black {
+  color: #000000;
+}
+
+.logo-white {
+  color: #ffffff;
+}
+
+/* Оформление навигации сайта header*/
+.list {
+  list-style: none;
+}
+
+.nav {
+  text-decoration: none;
+  color: var(--text-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.nav:hover,
+.nav:focus {
+  color: var(--brand-color);
+}
+
+.header-mail,
+.header-phone {
+  text-decoration: none;
+  color: #757575;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.header-mail:hover,
+.header-phone:hover,
+.header-mail:focus,
+.header-phone:focus {
+  color: var(--brand-color);
+}
+
+/* Оформление подвала сайта footer */
+.footer,
+.section-hero {
+  background-color: #2f303a;
+}
+
+.adress {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.footer-mail,
+.footer-phone {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+/* Оформление секции Hero */
+.title-hero {
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.button {
+  background-color: var(--brand-color);
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #188ce8;
+}
+
+/* Оформление секции преимущества */
+
+.hidden {
+  display: none;
+}
+
+.function-subtitle {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* Секция преимущества */
+.function-text {
+  color: #757575;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* Секция услуги компании */
+.development-title,
+.team-title {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+/* Секция Наша команда */
+.team-name {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+
+.team-function {
+  color: #757575;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
