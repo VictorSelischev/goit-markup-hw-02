@@ -217,3 +217,27 @@
   background-color: var(--brand-color);
   color: #ffffff;
 }
+
+.portfolio {
+  text-decoration: none;
+}
+
+.portfolio > h3 {
+  color: #212121;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+
+.portfolio > p {
+  color: #757575;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
