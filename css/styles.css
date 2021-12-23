@@ -89,7 +89,7 @@
   background-color: #2f303a;
 }
 
-.adress {
+.address-link {
   text-decoration: none;
   color: #ffffff;
   font-family: Roboto, sans-serif;
@@ -100,16 +100,10 @@
   letter-spacing: 0.03em;
 }
 
-.footer-mail,
-.footer-phone {
+.mail,
+.phone {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 /* Оформление секции Hero */
