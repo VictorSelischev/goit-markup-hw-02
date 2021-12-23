@@ -217,11 +217,11 @@
   color: #ffffff;
 }
 
-.portfolio {
+.portfolio-link {
   text-decoration: none;
 }
 
-.portfolio > h3 {
+.portfolio-link > h2 {
   color: var(--text-color);
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -231,7 +231,7 @@
   letter-spacing: 0.06em;
 }
 
-.portfolio > p {
+.portfolio-link > p {
   color: var(--text-color-two);
   font-family: Roboto, sans-serif;
   font-style: normal;
