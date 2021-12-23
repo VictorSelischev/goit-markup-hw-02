@@ -18,6 +18,7 @@
   --brand-coor-two: #ffffff;
   --text-color: #212121;
   --text-color-two: #757575;
+  --button-filter-color: #f5f4fa;
 }
 
 .body {
@@ -208,7 +209,7 @@
 
 .button-portfolio {
   border: none;
-  background-color: #ffffff;
+  background-color: var(--button-filter-color);
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
