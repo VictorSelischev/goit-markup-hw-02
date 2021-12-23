@@ -52,7 +52,7 @@
   list-style: none;
 }
 
-.nav {
+.site-nav-link {
   text-decoration: none;
   color: var(--text-color);
   font-family: Roboto, sans-serif;
@@ -63,13 +63,12 @@
   letter-spacing: 0.02em;
 }
 
-.nav:hover,
-.nav:focus {
+.site-nav-link:hover,
+.site-nav-link:focus {
   color: var(--brand-color);
 }
 
-.header-mail,
-.header-phone {
+.contacts-link {
   text-decoration: none;
   color: var(--text-color-two);
   font-family: Roboto, sans-serif;
@@ -79,10 +78,8 @@
   letter-spacing: 0.02em;
 }
 
-.header-mail:hover,
-.header-phone:hover,
-.header-mail:focus,
-.header-phone:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--brand-color);
 }
 
