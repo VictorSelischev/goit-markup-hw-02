@@ -90,7 +90,6 @@ body {
   text-decoration: none;
   color: #ffffff;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -146,7 +145,6 @@ body {
 /* Секция преимущества */
 .function-text {
   color: var(--text-color-two);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -172,7 +170,6 @@ body {
 
 .team-text {
   color: var(--text-color-two);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -213,7 +210,6 @@ body {
 
 .portfolio-link > p {
   color: var(--text-color-two);
-  font-weight: 400;
   font-size: 16px;
   line-height: 2;
   letter-spacing: 0.03em;
