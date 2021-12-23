@@ -183,7 +183,7 @@
 }
 
 /* Секция Наша команда */
-.team-name {
+.team-subtitle {
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -192,7 +192,7 @@
   letter-spacing: 0.03em;
 }
 
-.team-function {
+.team-text {
   color: var(--text-color-two);
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -204,7 +204,7 @@
 
 /* Интерактивная секция кнопок портфолио */
 
-.button-portfolio {
+.filter-button {
   border: none;
   background-color: var(--button-filter-color);
   font-family: Roboto, sans-serif;
@@ -217,8 +217,8 @@
   cursor: pointer;
 }
 
-.button-portfolio:hover,
-.button-portfolio:focus {
+.filter-button:hover,
+.filter-button:focus {
   background-color: var(--brand-color);
   color: #ffffff;
 }
