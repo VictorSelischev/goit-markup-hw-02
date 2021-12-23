@@ -17,9 +17,13 @@
   --brand-color-black: #000000;
   --brand-color-white: #ffffff;
   --background-color-white: #ffffff;
+  --background-color-section: #2f303a;
   --text-color: #212121;
   --text-color-two: #757575;
+  --color-section-text: #ffffff;
+  --color-section-text-two: rgba(255, 255, 255, 0.6);
   --button-filter-color: #f5f4fa;
+  --button-filter-color-hover: #188ce8;
 }
 
 body {
@@ -83,12 +87,12 @@ body {
 /* Оформление подвала сайта footer */
 .footer,
 .section-hero {
-  background-color: #2f303a;
+  background-color: var(--background-color-section);
 }
 
 .address-link {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--color-section-text);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -98,12 +102,12 @@ body {
 .mail,
 .phone {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--color-section-text-two);
 }
 
 /* Оформление секции Hero */
 .title-hero {
-  color: #ffffff;
+  color: var(--color-section-text);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -114,7 +118,7 @@ body {
 
 .button {
   background-color: var(--brand-color);
-  color: #ffffff;
+  color: var(--color-section-text);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -125,7 +129,7 @@ body {
 
 .button:hover,
 .button:focus {
-  background-color: #188ce8;
+  background-color: var(--button-filter-color-hover);
 }
 
 /* Оформление секции преимущества */
@@ -193,7 +197,7 @@ body {
 .filter-button:hover,
 .filter-button:focus {
   background-color: var(--brand-color);
-  color: #ffffff;
+  color: var(--color-section-text);
 }
 
 .portfolio-link {
